@@ -54,7 +54,7 @@ function noAccessResponse() {
 describe("pro command", () => {
   let tmpHome: string;
   let fetchMock: any;
-  let exitSpy: ReturnType<typeof vi.spyOn>;
+  let exitSpy: any;
 
   beforeEach(async () => {
     vi.clearAllMocks();
